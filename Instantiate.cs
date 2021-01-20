@@ -125,25 +125,5 @@ public class Instantiate : MonoBehaviour
         alltiles.Remove(randomPrefab);
 
     }
-    //coal: 1 X20
-    //gas: 2 x14
-    //uranium:3 x12
-    //solar2: 4 x2
-    //solar3:5 x2
-    //wind2: 6 x2
-    //wind3: 7 x2
-    // hydro2 : 8 x2
-    //hydro 3 : 9 x2
-    // nuclear: 10
-    // gasfired: 11
-    // coalfire : 12
-    //dpollution : 13
-    // pulucHealth : 14
-    // museum : 15
-    // APark : 17
-    // park : 18
-    // Hospital : 19
-    // Nuclear Waste : 20
-    
 
 }
