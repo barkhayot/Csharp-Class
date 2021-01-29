@@ -92,27 +92,7 @@ public class CameraController : MonoBehaviour
 
         }
 
-
-
-
-        if (pos.x > limit)
-        {
-            pos.x = limit;
-        }
-        if(pos.x < -limit)
-        {
-            pos.x = -limit;
-        }
-        if (pos.z > limit)
-        {
-            pos.z = limit;
-        }
-        if (pos.z < -limit)
-        {
-            pos.z = -limit;
-        }
-
-
+// static for cam
 
         CamerafollowObj.position = Vector3.Slerp(CamerafollowObj.position, pos, 0.3f);
         
